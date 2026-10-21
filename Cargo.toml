@@ -16,7 +16,7 @@ keywords = ["cloudflare", "dns", "api", "cli"]
 reqwest = { version = "0.11", features = ["json"] }
 tokio = { version = "1", features = ["full"] }
 rustls = "0.20"
-webpki-roots = "0.22"
+webpki-roots = "1.0.10"
 x509-parser = "0.14.0"
 clap = { version = "4.1.5", features = ["derive"] }
 prettytable-rs = "0.10.0"
